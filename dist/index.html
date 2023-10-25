@@ -1,0 +1,490 @@
+<!-- @format -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="./assets/css/output.css" />
+  <!-- <script src="/dist/assets/js/index.js" defer></script> -->
+  <script src="https://kit.fontawesome.com/5b62c0d0fd.js" crossorigin="anonymous"></script>
+  <title>Document</title>
+</head>
+
+<body class="h-screen">
+  <header class="w-full lg:px-20 px-0 bg-gray-800 relative lg:py-4 py-0">
+    <nav class=" flex-wrap w-full items-center justify-between flex container mx-auto ">
+      <div class="">
+        <h1 class="text-3xl text-white font-bold">
+          Light<span class="text-orange-600">Code.</span>
+        </h1>
+      </div>
+
+      <div id="mm" class="flex menus">
+        <span class=" lg:hidden "  ><i class="fa fa-bars  text-white" onclick="document.getElementById('Menu').style.top ='-10px';" ></i></span>
+        <div id="Menu" class="lg:relative z-10 absolute lg:top-0 top-[-1000px] right-0 w-full transition-all duration-[0.5s]" >
+
+          <ul class="lg:flex mt-2 lg:bg-gray-800 bg-sky-600 text-center py-4 ">
+            <span class=" lg:hidden" ><i class="fa fa-times text-white" onclick="document.getElementById('Menu').style.top = '-1000px';"></i></span>
+            <li class="text-white hover:text-gray-600 mr-4 item">
+              <a href="#">Home</a>
+            </li>
+            <li class="text-white hover:text-gray-600 mr-3 item">
+              <a href="#">Features</a>
+            </li>
+            <li class="text-white hover:text-gray-600 mr-3 item">
+              <a href="#">Testimonial</a>
+            </li>
+            <li class="text-white hover:text-gray-600 mr-3 item">
+              <a href="#">Pricing</a>
+            </li>
+            <li class="text-white hover:text-gray-600 mr-3 item">
+              <a href="#">Blog</a>
+            </li>
+            <li class="text-white hover:text-gray-600 mr-3 item">
+              <a href="#">Contact</a>
+            </li>
+            <button class="text-white hover:text-gray-600 mr-3 px-10 py-1 rounded-lg bg-orange-600">
+              <a href="#">Free Trial</a>
+            </button>
+          </ul>
+        </div>
+        
+      </div>
+
+      <!-- <div class="menu"> -->
+
+      </div>
+
+    </nav>
+    <section class="w-full">
+      <div class="rounded-full h-72 w-72 absolute bg-blue-900 blur-2xl top-32 left-0"></div>
+      <div class="rounded-full h-72 w-72 absolute bg-orange-800 blur-2xl right-0 bottom-0"></div>
+      <div class="w-full text-center lg:text-left lg:justify-between lg:flex lg:pt-32 z-10">
+        <div class=" z-10  pt-[80px] text-center lg:text-left mx-auto">
+          <h1 class="text-white font-bold text-[40px] lg:text-[34px] lg:pt-[44px]">Awesome App For Your <br
+              class="hidden lg:block"><span class="pt-0">Financial.</span></h1>
+          <p class=" text-white text-[15px] mt-4">
+            This should be used to tell a story and let your users know a
+            little <br class="hidden lg:block">more about app and its use, How can benefit them
+          </p>
+          <br /><button class="text-white hover:text-gray-600 mr-6 px-10 py-3 rounded-lg bg-orange-600 mt-6">
+            <a href="#">Download App</a>
+          </button>
+        </div>
+        <div class="lg:w-[50%] mx-auto"><img src="./assets/img/hero4.png" alt="" /></div>
+      </div>
+    </section>
+  </header>
+  <main class="bg-blue-950">
+    <section class="relative pt-[110px] bg-blue-950 px-20">
+      <div class="text-white justify-center items-center">
+        <div class="justify-center items-center flex pb-7">
+          <h6 class="text-orange-600 justify-center items-center font-bold">Our Future</h6>
+        </div>
+        <div class="text-center">
+          <p class="justify-center items-center text-3xl font-bold">Easy To Manage Your All <br class="hidden lg:block">
+            Payments By Our App</p>
+        </div>
+        <div class="grid-cols-1 grid-row-3 grid lg:grid-cols-3 lg:grid-rows-1 box-content">
+          <div
+            class="mx-4 mt-6 py-10 flex flex-col rounded-lg h-[340px] bg-blue-950 text-white border border-gray-600  shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] dark:bg-neutral-700 sm:shrink-0 sm:grow sm:basis-0">
+
+            <div class="flex justify-center items-center mt-[30px] h-[40%]"><i
+                class="fa-solid fa-calendar-days py-9 px-9 rounded-lg bg-orange-600 text-3xl "></i></div>
+
+            <div class="p-6 text-center">
+              <h5 class="mt-2 mb-5 text-xl font-bold text-white justify-center flex items-center"> Expense Trackering
+              </h5>
+              <p class="mb-4 text-base text-white">
+                We use an application designed a testing gnose to keep away
+              </p>
+            </div>
+
+          </div>
+          <div
+            class="mx-4 mt-6 py-10 flex flex-col rounded-lg h-[340px] bg-gray-900 text-white border border-gray-600 shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] dark:bg-neutral-700 sm:shrink-0 sm:grow sm:basis-0">
+            <div class="flex justify-center items-center mt-[30px] h-[40%]"><i
+                class="fa-solid fa-chart-column py-9 px-9 rounded-lg bg-orange-600 text-3xl"></i></div>
+            <div class="p-6 text-center">
+              <h5 class="mt-2 mb-5 text-xl font-bold text-white"> Finance Snapshot</h5>
+              <p class="mb-4 text-base text-white flex justify-center items-center">
+                We use an application designed a testing gnose to keep away
+              </p>
+            </div>
+
+          </div>
+          <div
+            class="mx-4 mt-6 py-10 flex flex-col rounded-lg h-[340px] bg-gray-900 text-white border border-gray-600 shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] dark:bg-neutral-700 sm:shrink-0 sm:grow sm:basis-0">
+            <div class="flex justify-center items-center mt-[30px] h-[40%]"><i
+                class="fa-sharp fa-solid fa-phone py-9 px-9 rounded-lg bg-orange-600 text-3xl"></i></div>
+            <div class="p-6 text-center">
+              <h5 class="mt-2 mb-5 text-xl font-bold text-white"> Support 24/24</h5>
+              <p class="mb-4 text-base text-white flex justify-center items-center">
+                We use an application designed a testing gnose to keep away
+              </p>
+            </div>
+
+          </div>
+        </div>
+      </div>
+      </div>
+      </div>
+    </section>
+    <section class="relative mt-20 bg-gray-800 w-full">
+      <div class="rounded-full h-72 w-72 absolute bg-blue-900 blur-2xl top-0 left-0"></div>
+      <div class="rounded-full h-72 w-72 absolute bg-orange-800 blur-2xl right-0 bottom-0"></div>
+      <div class=" flex justify-center items-center px-20">
+        <div class="w-[50%] z-10 pt-3"><img src="./assets/img/hero3.png" alt=""></div>
+        <div class="w-[50%]">
+          <div class=" pt-2">
+            <h6 class="text-orange-600 font-bold pb-10">Saving Money</h6>
+          </div>
+          <div>
+            <h1 class="font-bold text-3xl text-white pb-0">Best financing App</h1><br>
+          </div>
+          <div>
+            <h1 class="font-bold text-3xl text-white pb-8">Your Money</h1>
+          </div>
+          <div>
+            <p class="text-white pb-10">Best financing app ever in the world. Easy to use and very user <br> friendly
+              for mobile banking. You can
+              control your card easily and send <br> money some one just one click. </p>
+          </div>
+          <div><button class="text-white hover:text-gray-600 mr-6 px-10 py-3 rounded-lg bg-orange-600 mt-6">
+              <a href="#">Read More</a>
+            </button></div>
+        </div>
+      </div>
+    </section>
+    <section class="relative bg-gray-900">
+      <div class="px-20 py-28">
+        <div class="flex justify-center items-center text-orange-600 my-6 font-semibold">
+          <h6>How It Works</h6>
+        </div>
+        <div class="flex justify-center items-center text-3xl text-white font-bold mb-8">
+          <h1>Grow Up Your Money Saving</h1>
+        </div>
+        <div class="grid-cols-1 grid-row-3 grid lg:grid-cols-3 lg:grid-rows-1 box-content">
+          <div class="mx-4 mt-6 py-10 flex flex-col h-[340px] bg-gray-900 text-white">
+
+            <div class="flex justify-center items-center mt-[30px] h-[40%]"><i
+                class="fa-regular fa-1 fa-beat py-9 px-9 rounded-lg bg-gray-950 text-[50px]"></i></div>
+
+            <div class="p-6 text-center">
+              <h5 class="mt-2 mb-5 text-xl font-bold text-white justify-center flex items-center"> Install the App
+              </h5>
+              <p class="mb-4 text-base text-white flex justify-center items-center text-[13px]">
+                We use an application designed a testing gnose to keep away</p>
+            </div>
+
+          </div>
+          <div class="mx-4 mt-6 py-10 flex flex-col h-[340px] bg-gray-900 text-white">
+            <div class="flex justify-center items-center mt-[30px] h-[40%]"><i
+                class="fa-regular fa-2 fa-fade py-9 px-9 rounded-lg bg-orange-600 text-[50px]"></i></div>
+
+            <div class="p-6 text-center">
+              <h5 class="mt-2 mb-5 text-xl font-bold text-white justify-center flex items-center"> Setup Your Profile
+              </h5>
+              <p class="mb-4 text-base text-white flex justify-center items-center text-[13px]">
+                We use an application designed a testing gnose to keep away
+              </p>
+            </div>
+
+          </div>
+          <div class="mx-4 mt-6 py-10 flex flex-col h-[340px] bg-gray-900 text-white">
+            <div class="flex justify-center items-center mt-[30px] h-[40%]"><i
+                class="fa-regular fa-3 fa-shake py-9 px-9 rounded-lg bg-gray-950 text-[50px]"></i></div>
+
+            <div class="p-6 text-center">
+              <h5 class="mt-2 mb-5 text-xl font-bold text-white justify-center flex items-center"> Install the App
+              </h5>
+              <p class="mb-4 text-base text-white flex justify-center items-center text-[13px]">
+                We use an application designed a testing gnose to keep away
+              </p>
+            </div>
+
+          </div>
+        </div>
+
+        <div class=" my-16 w-full">
+          <div>
+            <h6 class="text-orange-600 font-semibold flex justify-center items-center pt-32 pb-4">user review</h6>
+          </div>
+          <div>
+            <h1 class="flex justify-center items-center text-white font-bold text-3xl">What Clients Say About Your App
+            </h1>
+          </div>
+          <div class="mb-[130px]">
+            <h1 class="flex justify-center items-center text-white font-bold text-3xl"> After Use It</h1>
+          </div>
+          <div class="flex justify-center items-center -mt-16 mb-[30px] mx-auto max-w-full">
+            <div><img src="./assets/img/user1.jpg" alt=""
+                class="h-auto w-[80px] p-1 mr-6 max-w-full rounded-full border-4 border-orange-600"></div>
+            <div><img src="./assets/img/user2.jpg" alt=""
+                class="h-[80px] max-w-full p-1 mr-6 w-[80px] rounded-full hover:border-4 border-orange-600"></div>
+            <div><img src="./assets/img/user3.jpg" alt=""
+                class="h-auto max-w-full p-1 mr-6 w-[80px] rounded-full hover:border-4 border-orange-600"></div>
+            <div><img src="./assets/img/user4.jpg" alt=""
+                class="h-[80px] max-w-full p-1 mr-6 w-[80px] rounded-full hover:border-4 border-orange-600"></div>
+            <div><img src="./assets/img/user5.jpg" alt=""
+                class="h-[80px] max-w-full p-1 mr-6 w-[80px] rounded-full hover:border-4 border-orange-600"></div>
+          </div>
+        </div>
+        <div class="justify-center items-center flex text-white text-[22px]">
+          <p>"This should be used to tell a story and include any testimonials you might have</p>
+        </div>
+        <div class="justify-center items-center flex text-white text-[22px] pb-8">
+          <p>About your product or service for your clients"!</p>
+        </div>
+        <div class="flex justify-center items-center text-orange-600 text-[12px] font-semibold">
+          <h6>Markin Nezus</h6>
+        </div>
+        <div class="flex justify-center items-center text-[12px] text-white">
+          <h6>IOS Developer</h6>
+        </div>
+    </section>
+    <section class="px-20 pt-32 bg-gray-900">
+      <div class="">
+        <h6 class="flex items-center justify-center text-[12px] text-orange-600 font-semibold">Pricing</h6>
+        <h1 class="flex items-center justify-center text-[24px] text-white font-semibold mb-6"> Get In Reasonable price"
+        </h1>
+        <div class="flex justify-center items-center text-white mb-[30px]">
+          <h1>Bill Monthly</h1><i class="fa fa-toggle-off mx-4 w-[20px]"></i>
+          <h1>Bill Anually</h1>
+        </div>
+
+      </div>
+      <div class="grid-cols-1 grid-row-3 grid lg:grid-cols-3 lg:grid-rows-1 box-content mx-4 relative">
+        <div class=" pt-3 px-5 flex flex-col h-[600px] bg-gray-900 text-white rounded-2xl border border-gray-600 mr-4 shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] dark:bg-neutral-700 sm:shrink-0 sm:grow sm:basis-0">
+        <h1 class="text-white absolute top-6 left-3"><i class="fa-sharp fa-solid fa-dollar-sign fa-fade "></i><span
+          class="lg:text-6xl md:text-6xl text-4xl font-bold ml-2 absolute top-0 left-0">20</span></h1><h1 class="lg:text-[13px] md:text-2xl text-2xl ml-[52px] mt-5 absolute top-8 left-10">/per month</h1>
+        <div class="mt-[100px] mb-4 ml-2"><h1 class="font-bold text-xl">Basic</h1></div>
+        <div><p class="text-[17px] ml-2">For beginners who want to scale </p></div>
+        <div><p class="text-[17px] ml-2 mb-6">Business Globaly</p></div>
+        <div class="flex pb-4">
+          
+            <div class="text-orange-600 ml-2 mr-4 "><i class="fa fa-bookmark "></i></div> <div><h1 class="text-white text-[13px]">Expense management</h1></div>
+            
+          </div>
+          
+          <div class="flex pb-4">
+          
+            <div class="text-orange-600 ml-2 mr-4 "><i class="fa fa-bookmark "></i></div> <div><h1 class="text-white text-[13px]">Card management</h1></div>
+            
+          </div>
+          <div class="flex pb-4">
+          
+            <div class="text-[#919191] ml-2 mr-4 "><i class="fa fa-bookmark "></i></div> <div><h1 class="text-white text-[13px]">Instant statistics</h1></div>
+            
+          </div>
+          <div class="flex pb-4">
+          
+            <div class="text-[#919191] ml-2 mr-4 "><i class="fa fa-bookmark "></i></div> <div><h1 class="text-white text-[13px]">Bookmark function</h1></div>
+            
+          </div>
+          <div class="flex pb-8">
+          
+            <div class="text-[#919191] ml-2 mr-4 "><i class="fa fa-bookmark text-[#919191]"></i></div> <div><h1 class="text-white text-[13px]">Accounting system</h1></div>
+            
+          </div>
+
+        <div class="flex justify-center mx-auto items-center mt-6"><button class="text-white hover:text-gray-600 mx-auto px-24 py-4 rounded-lg bg-gray-950">
+              <a href="#">Get started</a>
+            </button></div>
+      </div>
+        
+      <div class=" pt-3 px-5 flex flex-col h-[600px] bg-gray-900 relative text-white rounded-2xl border border-gray-600 mr-4 shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] dark:bg-neutral-700 sm:shrink-0 sm:grow sm:basis-0">
+        <h1 class="text-white absolute top-6 left-3"><i class="fa-sharp fa-solid fa-dollar-sign fa-fade "></i><span
+          class="lg:text-6xl md:text-6xl text-4xl font-bold ml-2 absolute top-0 left-0">50</span></h1><h1 class="lg:text-[13px] md:text-2xl text-2xl ml-[52px] mt-5 absolute top-8 left-10">/per month</h1>
+        <div class="mt-[100px] mb-4 ml-2"><h1 class="font-bold text-xl">Basic</h1></div>
+        <div><p class="text-[17px] ml-2">For beginners who want to scale </p></div>
+        <div><p class="text-[17px] ml-2 mb-6">Business Globaly</p></div>
+        <div class="flex pb-4">
+          
+            <div class="text-orange-600 ml-2 mr-4 "><i class="fa fa-bookmark "></i></div> <div><h1 class="text-white text-[13px]">Expense management</h1></div>
+            
+          </div>
+          
+          <div class="flex pb-4">
+          
+            <div class="text-orange-600 ml-2 mr-4 "><i class="fa fa-bookmark "></i></div> <div><h1 class="text-white text-[13px]">Card management</h1></div>
+            
+          </div>
+          <div class="flex pb-4">
+          
+            <div class="text-[#919191] ml-2 mr-4 "><i class="fa fa-bookmark "></i></div> <div><h1 class="text-white text-[13px]">Instant statistics</h1></div>
+            
+          </div>
+          <div class="flex pb-4">
+          
+            <div class="text-[#919191] ml-2 mr-4 "><i class="fa fa-bookmark "></i></div> <div><h1 class="text-white text-[13px]">Bookmark function</h1></div>
+            
+          </div>
+          <div class="flex pb-8">
+          
+            <div class="text-[#919191] ml-2 mr-4 "><i class="fa fa-bookmark text-[#919191]"></i></div> <div><h1 class="text-white text-[13px]">Accounting system</h1></div>
+            
+          </div>
+
+        <div class="flex justify-center mx-auto items-center mt-6"><button class="text-white hover:text-gray-600 mx-auto px-24 py-4 rounded-lg bg-gray-950">
+              <a href="#">Get started</a>
+            </button></div>
+      </div>
+      <div class=" pt-3 px-5 flex flex-col h-[600px] bg-gray-900 text-white rounded-2xl relative border border-gray-600 mr-4 shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] dark:bg-neutral-700 sm:shrink-0 sm:grow sm:basis-0">
+        <h1 class="text-white absolute top-6 left-3"><i class="fa-sharp fa-solid fa-dollar-sign fa-fade "></i><span
+          class="lg:text-6xl md:text-6xl text-4xl font-bold ml-2 absolute top-0 left-0">100</span></h1><h1 class="lg:text-[13px] md:text-2xl text-2xl ml-[85px] mt-5 absolute top-8 left-10">/per month</h1>
+        <div class="mt-[100px] mb-4 ml-2"><h1 class="font-bold text-xl">Basic</h1></div>
+        <div><p class="text-[17px] ml-2">For beginners who want to scale </p></div>
+        <div><p class="text-[17px] ml-2 mb-6">Business Globaly</p></div>
+        <div class="flex pb-4">
+          
+            <div class="text-orange-600 ml-2 mr-4 "><i class="fa fa-bookmark "></i></div> <div><h1 class="text-white text-[13px]">Expense management</h1></div>
+            
+          </div>
+          
+          <div class="flex pb-4">
+          
+            <div class="text-orange-600 ml-2 mr-4 "><i class="fa fa-bookmark "></i></div> <div><h1 class="text-white text-[13px]">Card management</h1></div>
+            
+          </div>
+          <div class="flex pb-4">
+          
+            <div class="text-[#919191] ml-2 mr-4 "><i class="fa fa-bookmark "></i></div> <div><h1 class="text-white text-[13px]">Instant statistics</h1></div>
+            
+          </div>
+          <div class="flex pb-4">
+          
+            <div class="text-[#919191] ml-2 mr-4 "><i class="fa fa-bookmark "></i></div> <div><h1 class="text-white text-[13px]">Bookmark function</h1></div>
+            
+          </div>
+          <div class="flex pb-8">
+          
+            <div class="text-[#919191] ml-2 mr-4 "><i class="fa fa-bookmark text-[#919191]"></i></div> <div><h1 class="text-white text-[13px]">Accounting system</h1></div>
+            
+          </div>
+
+        <div class="flex justify-center mx-auto items-center mt-6"><button class="text-white hover:text-gray-600 mx-auto px-24 py-4 rounded-lg bg-gray-950">
+              <a href="#">Get started</a>
+            </button></div>
+      </div>
+      </div>
+    </section>
+    <section class="bg-gray-900 px-20 pt-32">
+<div class="flex text-orange-600 justify-center items-center text-[14px] font-semibold"><h1>Innovation And Quality improvement</h1></div>
+<div class="flex text-white justify-center items-center font-bold text-[30px]"><h1>Latest Updates, solutions and</h1></div>
+<div class="flex text-white justify-center items-center font-bold text-[30px]"><h1>compagny News</h1></div>
+
+<div class="grid-cols-1 grid-row-3 grid lg:grid-cols-3 lg:grid-rows-1 box-content">
+  <div class="mx-2 mt-6  flex flex-col rounded-lg h-[600px] bg-gray-900 text-white  ">
+
+    <div class="rounded-lg "><img src="./assets/img/blog1.jpg" alt="" class="rounded-lg"></div>
+
+    <div class="">
+      <h5 class="mt-4 mb-3 text-[15px]  text-white "> 20 August 2022 <span class="ml-4">1min read</span>
+      </h5>
+      <u><h1 class="mb-4 text-[25px] font-bold">
+        Four Ways to cheer yourself up on Blue Monday!
+      </h1></u>
+      <p class="text-[17px] mb-4">On the second edition of serious Business, Inc. editor jim Ledbetter and Fusion Senior editor Salmon debate.</p>
+    <u> <h1 class="text-[14px] font-bold">Read more</h1></u>
+    </div>
+
+  </div>
+  <div
+    class="mx-2 mt-6 flex flex-col rounded-lg h-[600px] bg-gray-900 text-white ">
+    <div class="rounded-lg"><img src="./assets/img/blog2.jpg" alt="" class="rounded-lg"></div>
+    <div class="">
+      <h5 class="mt-4 mb-3 text-[15px]  text-white"> 20 August 2022 <span class="ml-4">1min read</span>
+      </h5>
+      <u><h1 class="mb-4 text-[25px] font-bold">
+        How To Organize Your Budget For Mximum Productivity
+      </h1></u>
+      <p class="text-[17px] mb-4">Global provider connected products for consummers, and interprises worldwide, supply chain control is everything...</p>
+    <u> <h1 class="text-[14px] font-bold">Read more</h1></u>
+    </div>
+
+  </div>
+  <div
+  class="mx-2 px-3 mt-6 flex flex-col rounded-lg h-[600px] bg-gray-900 text-white ">
+  <div class="rounded-lg"><img src="./assets/img/blog3.jpg" alt="" class="rounded-lg h-[256px] w-[500px]"></div>
+  <div class="">
+    <h5 class="mt-4 mb-3 text-[15px]  text-white"> 20 August 2022 <span class="ml-4">1min read</span>
+    </h5>
+    <u><h1 class="mb-4 text-[25px] font-bold">
+     Should Small Businesses Be Entitled to system?
+    </h1></u>
+    <p class="text-[17px] mb-4">Our team provides skilled & experienced manager who know the intricacies of this vertical and focus.</p>
+    <u> <h1 class="text-[14px] font-bold">Read more</h1></u>
+    </div>
+
+  </div>
+</div>
+</div>
+</div>
+    </section>
+    <section class="px-20 bg-[#0b0b25] pt-[150px] pb-[150px]">
+<div class="mb-4"><h1 class="flex justify-center items-center text-white font-bold text-[30px]">Download App Now And Save Your Money</h1></div>
+    <div class="flex justify-center text-white text-[16px] mb-6"><h1>Serving an impressive list of long-term money with experience and expertise in multiole industries</h1></div>
+<div class="flex justify-center text-white items-center mb-[50px]"><img src="./assets/img/ios-store-dark.png" alt="" class="px-9 py-2 bg-white rounded-lg mr-3"><img src="./assets/img/g-play-dark.png" alt="" class="py-2 px-9 bg-white rounded-lg mr-3"></div>
+  </section>
+  <section class="px-20 bg-gray-900">
+    <div class="flex justify-center items-center text-orange-600 text-[14px] font-bold pt-32 mb-2"><h1>Have a questation</h1></div>
+<div class="flex justify-center items-center text-white text-[30px] font-bold pb-28"><h1>Get In Touch</h1></div>
+<div class="grid grid-cols-2 gap-4 max-w-xl m-auto">
+
+  <div class="col-span-2 lg:col-span-1">
+    <input type="text" class="border-solid border-gray-400 border-2 p-3 md:text-xl w-full" placeholder="Name"/>
+  </div>
+
+  <div class="col-span-2 lg:col-span-1">
+    <input type="text" class="border-solid border-gray-400 border-2 p-3 md:text-xl w-full" placeholder="Email Address"/>
+  </div>
+
+  <div class="col-span-2">
+    <textarea cols="30" rows="8" class="border-solid border-gray-400 border-2 p-3 md:text-xl w-full" placeholder="Message"></textarea>
+  </div>
+
+  <div class="col-span-2 text-right">
+    <button class="py-3 px-6 bg-green-500 text-white font-bold w-full sm:w-32">
+      Submit
+    </button>
+  </div>
+
+</div>
+</div>
+</section>
+
+
+
+
+
+  </main>
+
+  <!-- <script>
+    const a = document.querySelector(".menu");
+    const b = document.querySelector(".menus");
+
+    a.addEventListener("click", fonction);
+
+    function fonction() {
+      b.classList.toggle("nav-bar");
+    }
+
+    const c = document.querySelectorAll(".item");
+
+    c.forEach((links) => {
+      links.addEventListener("click", fonct);
+    });
+
+    function fonct() {
+      b.classList.remove("nav-bar");
+    }
+  </script> -->
+  <script>
+
+  </script>
+</body>
+
+</html>
